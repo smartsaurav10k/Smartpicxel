@@ -4,8 +4,7 @@
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
-    transition: all 0.3s ease;
-     transition: flex 0.3s ease;
+    transition: 0.3s ease;
     scroll-padding-top: 2rem;
     box-sizing: border-box;
 }
