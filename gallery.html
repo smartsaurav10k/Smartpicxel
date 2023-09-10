@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>smart picxel</title>
+
+    <!-- magnific-popup css cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="gallery.css">
+
+</head>
+<body>
+    <div class="loader"></div>
+    <style>
+
+        .loader {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #333333;
+      transition: opacity 0.75s, visibility 0.75s;
+    }
+    
+    .loader--hidden {
+      opacity: 0;
+      visibility: hidden;
+    }
+    
+    .loader::after {
+      content: "";
+      width: 75px;
+      height: 75px;
+      border: 15px solid #dddddd;
+      border-top-color: #00dbde;
+      border-radius: 50%;
+      animation: loading 0.75s ease infinite;
+    }
+    
+    @keyframes loading {
+      from {
+        transform: rotate(0turn);
+      }
+      to {
+        transform: rotate(1turn);
+      }
+    }
+    
+    </style>
+
+    <div style="margin-left: 25px; margin-top: 20px; font-size: 25px; font-weight: bold; color: #00dbde;"><span style="color: black;" >smart</span> picxel</div>
+
+<div class="gallery" style="margin-top: -17px;">
+
+    <ul class="controls">
+        <li class="buttons active" data-filter="all">all</li>
+        <li class="buttons" data-filter="ice-cream">web design</li>
+        <li class="buttons" data-filter="chocolate">photography</li>
+        <li class="buttons" data-filter="cake">videography</li>
+        <li class="buttons" data-filter="juice">Advertisement</li>
+        <li class="buttons" data-filter="sandwich">thumbnail</li>
+    </ul>
+
+    <div class="image-container">
+
+        <a href="img1.png" class="image ice-cream">
+            <img src="img1.png" alt="">
+        </a>
+        <a href="j.png" class="image ice-cream">
+            <img src="j.png" alt="">
+        </a>
+        <a href="i.jpg" class="image ice-cream">
+            <img src="i.jpg" alt="">
+        </a>
+
+         <a href="gallery.png" class="image ice-cream">
+            <img src="gallery.png" alt="">
+        </a>
+        <a href="d.jpg" class="image ice-cream">
+            <img src="d.jpg" alt="">
+        </a>
+        <a href="a.jpg" class="image ice-cream">
+            <img src="a.jpg" alt="">
+        </a>
+        <a href="f.jpg" class="image ice-cream">
+            <img src="f.jpg" alt="">
+        </a>
+        <a href="c.jpeg" class="image ice-cream">
+            <img src="c.jpeg" alt="">
+        </a>
+        <a href="h.jpg" class="image ice-cream">
+            <img src="h.jpg" alt="">
+        </a>
+
+        <a href="n.jpg" class="image chocolate">
+            <img src="n.jpg" alt="">
+        </a>
+        <a href="c3.jpg" class="image chocolate">
+            <img src="c3.jpg" alt="">
+        </a>
+
+         <a href="c1.jpg" class="image chocolate">
+            <img src="c1.jpg" alt="">
+        </a>
+        <a href="c2.jpg" class="image chocolate">
+            <img src="c2.jpg" alt="">
+        </a>
+
+         <a href="hat.png" class="image chocolate">
+            <img src="hat.png" alt="">
+        </a>
+        <a href="m.jpg" class="image chocolate">
+            <img src="m.jpg" alt="">
+        </a>
+
+         <a href="k.jpg" class="image chocolate">
+            <img src="k.jpg" alt="">
+        </a>
+        <a href="l.jpg" class="image chocolate">
+            <img src="l.jpg" alt="">
+        </a>
+
+         <a href="n.jpg" class="image chocolate">
+            <img src="n.jpg" alt="">
+        </a>
+
+        <a href="gh.png" class="image cake">
+            <img src="gh.png" alt="">
+        </a>
+        <a href="br1.jpg" class="image cake">
+            <img src="br1.jpg" alt="">
+        </a>
+        <a href="v5.gif" class="image cake">
+            <img src="v5.gif" alt="">
+        </a>
+        <a href="ad1.jpeg" class="image juice">
+            <img src="ad1.jpeg" alt="">
+        </a>
+        <a href="ad2.jpg" class="image juice">
+            <img src="ad2.jpg" alt="">
+        </a>
+        <a href="ad3.jpg" class="image juice">
+            <img src="ad3.jpg" alt="">
+        </a>
+        <a href="ad7.jpg" class="image juice">
+            <img src="ad7.jpg" alt="">
+        </a>
+        <a href="br1.jpg" class="image juice">
+            <img src="br1.jpg" alt="">
+        </a>
+        <a href="ad6.jpg" class="image juice">
+            <img src="ad6.jpg" alt="">
+        </a>
+        <a href="ad10.jpeg" class="image juice">
+            <img src="ad10.jpeg" alt="">
+        </a>
+        <a href="ad8.jpeg" class="image juice">
+            <img src="ad8.jpeg" alt="">
+        </a>
+        <a href="ad9.jpeg" class="image juice">
+            <img src="ad9.jpeg" alt="">
+        </a>
+
+        <a href="TH4.jpeg" class="image sandwich">
+            <img src="TH4.jpeg" alt="">
+        </a>
+        <a href="TH2.jpeg" class="image sandwich">
+            <img src="TH2.jpeg" alt="">
+        </a>
+        <a href="TH3.jpeg" class="image sandwich">
+            <img src="TH3.jpeg" alt="">
+        </a>
+        <a href="TH1.png" class="image sandwich">
+            <img src="TH1.png" alt="">
+        </a>
+        <a href="TH5.jpeg" class="image sandwich">
+            <img src="TH5.jpeg" alt="">
+        </a>
+        <a href="TH6.jpeg" class="image sandwich">
+            <img src="TH6.jpeg" alt="">
+        </a>
+        <a href="TH7.png" class="image sandwich">
+            <img src="TH7.png" alt="">
+        </a>
+        <a href="TH9.jpeg" class="image sandwich">
+            <img src="TH9.jpeg" alt="">
+        </a>
+        <a href="TH10.jpeg" class="image sandwich">
+            <img src="TH10.jpeg" alt="">
+        </a>
+
+        
+
+    </div>
+
+</div>
+
+
+<!-- jquery cdn link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- magnific popup js cdn link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+
+<script>
+
+$(document).ready(function(){
+
+    $('.buttons').click(function(){
+
+        $(this).addClass('active').siblings().removeClass('active');
+
+        var filter = $(this).attr('data-filter')
+
+        if(filter == 'all'){
+            $('.image').show(400);
+        }else{
+            $('.image').not('.'+filter).hide(200);
+            $('.image').filter('.'+filter).show(400);
+        }
+
+    });
+
+    $('.gallery').magnificPopup({
+
+        delegate:'a',
+        type:'image',
+        gallery:{
+            enabled:true
+        }
+
+    });
+
+});
+
+</script>
+
+
+<script>
+    window.addEventListener("load", () => {
+const loader = document.querySelector(".loader");
+
+loader.classList.add("loader--hidden");
+
+loader.addEventListener("transitionend", () => {
+document.body.removeChild(loader);
+});
+});
+
+</script>
+    
+</body>
+</html>
