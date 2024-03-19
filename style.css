@@ -13,6 +13,9 @@
 {
     display: none;
 }
+html{
+    filter: saturate: (130%);
+}
 
 /* root values */
 :root{
